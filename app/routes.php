@@ -6,7 +6,7 @@ Route::get('/', function() {
 });
 
 Route::get('/lipsum/{number}', function($number) {
-	
+
 	$generator = new Badcow\LoremIpsum\Generator();
 	$paragraphs = $generator->getParagraphs($number);
 	echo implode('<p>', $paragraphs);
@@ -21,5 +21,6 @@ Route::get('/newuser/{newusers}', function($users) {
   		$faker->name,
   		$faker->email,
   		$faker->city );
+  		echo '<br />';
 	}
 });
