@@ -1,0 +1,53 @@
+body {
+	padding: 20px;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.title {
+	text-align: center;
+	font-family: courier;
+}
+
+.green {
+	color: #00A550;
+}
+
+.centeredtext {
+	text-align: center;
+}
+
+.centeredblock {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.inputbox {
+	width: 30px;
+}
+
+.top-margin {
+	margin-top: 5px;
+}
+
+.left-margin {
+	margin-left: 400px;
+}
+
+.index-content {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	position: relative;
+}
+
+.content-400 {
+	width: 400px;
+	position: absolute;
+}
