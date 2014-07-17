@@ -51,3 +51,7 @@ body {
 	width: 400px;
 	position: absolute;
 }
+
+label {
+	font-family: courier;
+}
